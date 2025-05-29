@@ -19,6 +19,7 @@ package-lock.json
 # Ignore build/dist directories
 dist/
 build/
+.next/
 
 # Ignore cache directories
 .cache/
