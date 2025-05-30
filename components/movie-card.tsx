@@ -29,7 +29,7 @@ export default function MovieCard({ movie, onClick }: MovieCardProps) {
     }
 
     // Jika URL relatif, tambahkan base URL API lokal
-    return `http://103.167.137.108:3000${imageUrl.startsWith("/") ? "" : "/"}${imageUrl}`
+    return `http://103.185.38.29:3000${imageUrl.startsWith("/") ? "" : "/"}${imageUrl}`
   }
 
   return (
