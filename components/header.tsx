@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header>
       <h1>
-        Movie Box Edit<strong>DCA</strong>
+        Movie Box<strong>DCA</strong>
       </h1>
       <nav></nav>
       <div className="search">
