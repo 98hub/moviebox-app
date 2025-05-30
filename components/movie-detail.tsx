@@ -49,7 +49,7 @@ export default function MovieDetail({ movie, onClose }: MovieDetailProps) {
     }
 
     // Jika URL relatif, tambahkan base URL API lokal
-    return `http://localhost:3000${imageUrl.startsWith("/") ? "" : "/"}${imageUrl}`
+    return `http://103.167.137.108:3000${imageUrl.startsWith("/") ? "" : "/"}${imageUrl}`
   }
 
   return (

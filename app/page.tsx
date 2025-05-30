@@ -19,7 +19,7 @@ export default function HomePage() {
   const fetchMovies = async () => {
     try {
       // Menggunakan API lokal yang sudah berjalan
-      const response = await fetch("http://localhost:3000/api/movies")
+      const response = await fetch("http://103.167.137.108:3000/api/movies")
 
       if (!response.ok) {
         throw new Error(`API responded with status: ${response.status}`)
